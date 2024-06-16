@@ -1,0 +1,257 @@
+"Basic statistics of NDVI with water pixels excluded"{
+    "data": [
+        {
+            "interval": {
+                "from": "2020-01-01T00:00:00Z",
+                "to": "2020-01-31T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.7018803358078003,
+                                "max": 0.7018803358078003,
+                                "mean": 0.7018803358078003,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-01-31T00:00:00Z",
+                "to": "2020-03-01T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.7313191294670105,
+                                "max": 0.7313191294670105,
+                                "mean": 0.7313191294670105,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-03-01T00:00:00Z",
+                "to": "2020-03-31T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.43195265531539917,
+                                "max": 0.43195265531539917,
+                                "mean": 0.43195265531539917,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-03-31T00:00:00Z",
+                "to": "2020-04-30T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.24942965805530548,
+                                "max": 0.24942965805530548,
+                                "mean": 0.24942965805530548,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-04-30T00:00:00Z",
+                "to": "2020-05-30T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.11939461529254913,
+                                "max": 0.11939461529254913,
+                                "mean": 0.11939461529254913,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-05-30T00:00:00Z",
+                "to": "2020-06-29T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.07164248079061508,
+                                "max": 0.07164248079061508,
+                                "mean": 0.07164248079061508,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-06-29T00:00:00Z",
+                "to": "2020-07-29T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.08363234996795654,
+                                "max": 0.08363234996795654,
+                                "mean": 0.08363234996795654,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-07-29T00:00:00Z",
+                "to": "2020-08-28T00:00:00Z"
+            },
+            "error": {
+                "type": "EXECUTION_ERROR",
+                "message": "java.util.concurrent.ExecutionException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe"
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-08-28T00:00:00Z",
+                "to": "2020-09-27T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": -0.06077348068356514,
+                                "max": -0.06077348068356514,
+                                "mean": -0.06077348068356514,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-09-27T00:00:00Z",
+                "to": "2020-10-27T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.007115489803254604,
+                                "max": 0.007115489803254604,
+                                "mean": 0.007115489803254604,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-10-27T00:00:00Z",
+                "to": "2020-11-26T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.09821882843971252,
+                                "max": 0.09821882843971252,
+                                "mean": 0.09821882843971252,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "interval": {
+                "from": "2020-11-26T00:00:00Z",
+                "to": "2020-12-26T00:00:00Z"
+            },
+            "outputs": {
+                "data": {
+                    "bands": {
+                        "B0": {
+                            "stats": {
+                                "min": 0.1497216522693634,
+                                "max": 0.1497216522693634,
+                                "mean": 0.1497216522693634,
+                                "stDev": 0.0,
+                                "sampleCount": 1,
+                                "noDataCount": 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "status": "PARTIAL"
+}

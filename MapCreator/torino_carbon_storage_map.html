@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa98f57a8aa9b5fbb85406b57b7d2b1b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fa98f57a8aa9b5fbb85406b57b7d2b1b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fa98f57a8aa9b5fbb85406b57b7d2b1b = L.map(
+                "map_fa98f57a8aa9b5fbb85406b57b7d2b1b",
+                {
+                    center: [45.0703, 7.6869],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_926d39e0e41db12c059a6a09b1963f7d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_926d39e0e41db12c059a6a09b1963f7d.addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+            var circle_marker_7cdd8958d0ae7cfd8e613fd8376f1569 = L.circleMarker(
+                [45.0729, 7.6868],
+                {"bubblingMouseEvents": true, "color": "#f08080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f08080ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_d3bd2d53002bbb70f2b544535b8531ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec2f002e8457083a1768837b649a10de = $(`<div id="html_ec2f002e8457083a1768837b649a10de" style="width: 100.0%; height: 100.0%;">Tree Id: 1<br>Tree Species:  European Nettle Tree<br>Carbon Storage: 197.4263278663248 kg</div>`)[0];
+                popup_d3bd2d53002bbb70f2b544535b8531ac.setContent(html_ec2f002e8457083a1768837b649a10de);
+            
+        
+
+        circle_marker_7cdd8958d0ae7cfd8e613fd8376f1569.bindPopup(popup_d3bd2d53002bbb70f2b544535b8531ac)
+        ;
+
+        
+    
+    
+            var circle_marker_1b9faecac53dd367c2fc6ffebb1efe46 = L.circleMarker(
+                [45.0408, 7.6487],
+                {"bubblingMouseEvents": true, "color": "#f17979ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f17979ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_d422bb3af0bdefd980726246c6eed8d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc7879a6f11ddb65d0baf80968727354 = $(`<div id="html_bc7879a6f11ddb65d0baf80968727354" style="width: 100.0%; height: 100.0%;">Tree Id: 2<br>Tree Species:  European Nettle Tree<br>Carbon Storage: 254.816495523836 kg</div>`)[0];
+                popup_d422bb3af0bdefd980726246c6eed8d0.setContent(html_bc7879a6f11ddb65d0baf80968727354);
+            
+        
+
+        circle_marker_1b9faecac53dd367c2fc6ffebb1efe46.bindPopup(popup_d422bb3af0bdefd980726246c6eed8d0)
+        ;
+
+        
+    
+    
+            var circle_marker_820ebf7253a1218bddaa2e1436fc3e7c = L.circleMarker(
+                [45.075, 7.640999999999999],
+                {"bubblingMouseEvents": true, "color": "#f84242ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f84242ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_aa78cf23b92eb1df5d91f11a73f0aa69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f2efe044c234dd8f4ffd99f9250badc = $(`<div id="html_3f2efe044c234dd8f4ffd99f9250badc" style="width: 100.0%; height: 100.0%;">Tree Id: 3<br>Tree Species:  European Red Pine<br>Carbon Storage: 680.6938357908333 kg</div>`)[0];
+                popup_aa78cf23b92eb1df5d91f11a73f0aa69.setContent(html_3f2efe044c234dd8f4ffd99f9250badc);
+            
+        
+
+        circle_marker_820ebf7253a1218bddaa2e1436fc3e7c.bindPopup(popup_aa78cf23b92eb1df5d91f11a73f0aa69)
+        ;
+
+        
+    
+    
+            var circle_marker_8e60178c8d60211d701d5e97d3326166 = L.circleMarker(
+                [45.0512, 7.6862],
+                {"bubblingMouseEvents": true, "color": "#900000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#900000ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_9504020bd92ab23c5cc6737e968b9429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2954dd8e01ca82c8901e67c2b2e9a5e3 = $(`<div id="html_2954dd8e01ca82c8901e67c2b2e9a5e3" style="width: 100.0%; height: 100.0%;">Tree Id: 4<br>Tree Species:  Horse Chestnut<br>Carbon Storage: 2147.702224609078 kg</div>`)[0];
+                popup_9504020bd92ab23c5cc6737e968b9429.setContent(html_2954dd8e01ca82c8901e67c2b2e9a5e3);
+            
+        
+
+        circle_marker_8e60178c8d60211d701d5e97d3326166.bindPopup(popup_9504020bd92ab23c5cc6737e968b9429)
+        ;
+
+        
+    
+    
+            var circle_marker_c91f211711a7ed06be2e94d5d5597fe5 = L.circleMarker(
+                [45.048, 7.688000000000001],
+                {"bubblingMouseEvents": true, "color": "#a50000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50000ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_db528e336670844dbe96b3e998b447ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a9554613c0d64d260eb08bff9f90531 = $(`<div id="html_6a9554613c0d64d260eb08bff9f90531" style="width: 100.0%; height: 100.0%;">Tree Id: 5<br>Tree Species:  Horse Chestnut<br>Carbon Storage: 1968.5105138297376 kg</div>`)[0];
+                popup_db528e336670844dbe96b3e998b447ad.setContent(html_6a9554613c0d64d260eb08bff9f90531);
+            
+        
+
+        circle_marker_c91f211711a7ed06be2e94d5d5597fe5.bindPopup(popup_db528e336670844dbe96b3e998b447ad)
+        ;
+
+        
+    
+    
+            var circle_marker_5b77bb5352b8453d9903264382a04dea = L.circleMarker(
+                [45.0258, 7.6635],
+                {"bubblingMouseEvents": true, "color": "#b20000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b20000ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_667f593ce78038d262d04e1c6d40ff3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf82e17b223a410348393de63b8cdfbe = $(`<div id="html_cf82e17b223a410348393de63b8cdfbe" style="width: 100.0%; height: 100.0%;">Tree Id: 6<br>Tree Species:  Horse Chestnut<br>Carbon Storage: 1858.1918007444228 kg</div>`)[0];
+                popup_667f593ce78038d262d04e1c6d40ff3a.setContent(html_cf82e17b223a410348393de63b8cdfbe);
+            
+        
+
+        circle_marker_5b77bb5352b8453d9903264382a04dea.bindPopup(popup_667f593ce78038d262d04e1c6d40ff3a)
+        ;
+
+        
+    
+    
+            var circle_marker_2938b95e4c841b8abc49ee04192c7963 = L.circleMarker(
+                [45.082800000000006, 7.645799999999999],
+                {"bubblingMouseEvents": true, "color": "#8b0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8b0000ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_d2ca803f6847affe63795e4704d32bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a645bc07d9d8365f9917465c292d5105 = $(`<div id="html_a645bc07d9d8365f9917465c292d5105" style="width: 100.0%; height: 100.0%;">Tree Id: 7<br>Tree Species:  Horse Chestnut<br>Carbon Storage: 2189.3442020223924 kg</div>`)[0];
+                popup_d2ca803f6847affe63795e4704d32bb9.setContent(html_a645bc07d9d8365f9917465c292d5105);
+            
+        
+
+        circle_marker_2938b95e4c841b8abc49ee04192c7963.bindPopup(popup_d2ca803f6847affe63795e4704d32bb9)
+        ;
+
+        
+    
+    
+            var circle_marker_4747edb53ea412620b48eeb479780415 = L.circleMarker(
+                [45.0624, 7.641699999999999],
+                {"bubblingMouseEvents": true, "color": "#b80000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b80000ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+        
+    
+        var popup_dcac39fa0091246dd2fbba84631d4e4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed4ff93d91af43bd835898be0cb51e92 = $(`<div id="html_ed4ff93d91af43bd835898be0cb51e92" style="width: 100.0%; height: 100.0%;">Tree Id: 8<br>Tree Species:  Horse Chestnut<br>Carbon Storage: 1804.1532498430115 kg</div>`)[0];
+                popup_dcac39fa0091246dd2fbba84631d4e4c.setContent(html_ed4ff93d91af43bd835898be0cb51e92);
+            
+        
+
+        circle_marker_4747edb53ea412620b48eeb479780415.bindPopup(popup_dcac39fa0091246dd2fbba84631d4e4c)
+        ;
+
+        
+    
+    
+    var color_map_3f068113a681d7ed53930b551a0bafb0 = {};
+
+    
+    color_map_3f068113a681d7ed53930b551a0bafb0.color = d3.scale.threshold()
+              .domain([197.4263278663248, 201.41814725341112, 205.40996664049743, 209.40178602758374, 213.39360541467005, 217.38542480175636, 221.37724418884267, 225.36906357592898, 229.36088296301529, 233.3527023501016, 237.3445217371879, 241.3363411242742, 245.3281605113605, 249.3199798984468, 253.3117992855331, 257.30361867261945, 261.29543805970576, 265.28725744679207, 269.2790768338784, 273.2708962209647, 277.26271560805094, 281.2545349951373, 285.24635438222356, 289.2381737693099, 293.2299931563962, 297.2218125434825, 301.2136319305688, 305.2054513176551, 309.1972707047414, 313.1890900918277, 317.18090947891403, 321.17272886600034, 325.16454825308665, 329.15636764017296, 333.14818702725927, 337.1400064143456, 341.1318258014319, 345.1236451885182, 349.1154645756045, 353.1072839626908, 357.0991033497771, 361.09092273686343, 365.08274212394974, 369.07456151103605, 373.06638089812236, 377.05820028520867, 381.050019672295, 385.0418390593813, 389.0336584464676, 393.0254778335539, 397.0172972206402, 401.0091166077265, 405.00093599481283, 408.99275538189914, 412.98457476898545, 416.97639415607176, 420.9682135431581, 424.9600329302444, 428.9518523173307, 432.943671704417, 436.9354910915033, 440.9273104785896, 444.9191298656759, 448.91094925276224, 452.90276863984855, 456.8945880269348, 460.8864074140211, 464.8782268011075, 468.8700461881938, 472.86186557528004, 476.85368496236634, 480.8455043494527, 484.837323736539, 488.8291431236253, 492.8209625107116, 496.81278189779795, 500.80460128488426, 504.7964206719705, 508.7882400590568, 512.7800594461432, 516.7718788332295, 520.7636982203157, 524.755517607402, 528.7473369944884, 532.7391563815747, 536.730975768661, 540.7227951557472, 544.7146145428336, 548.70643392992, 552.6982533170062, 556.6900727040925, 560.6818920911788, 564.6737114782652, 568.6655308653515, 572.6573502524377, 576.6491696395241, 580.6409890266103, 584.6328084136967, 588.624627800783, 592.6164471878693, 596.6082665749556, 600.6000859620419, 604.5919053491282, 608.5837247362145, 612.5755441233008, 616.5673635103872, 620.5591828974734, 624.5510022845598, 628.542821671646, 632.5346410587324, 636.5264604458187, 640.518279832905, 644.5100992199913, 648.5019186070776, 652.4937379941639, 656.4855573812503, 660.4773767683365, 664.4691961554229, 668.4610155425091, 672.4528349295954, 676.4446543166817, 680.4364737037681, 684.4282930908544, 688.4201124779406, 692.411931865027, 696.4037512521134, 700.3955706391996, 704.3873900262859, 708.3792094133722, 712.3710288004586, 716.3628481875448, 720.3546675746311, 724.3464869617173, 728.3383063488038, 732.3301257358901, 736.3219451229763, 740.3137645100628, 744.3055838971491, 748.2974032842353, 752.2892226713216, 756.2810420584078, 760.2728614454943, 764.2646808325806, 768.2565002196668, 772.2483196067533, 776.2401389938393, 780.2319583809258, 784.223777768012, 788.2155971550983, 792.2074165421848, 796.199235929271, 800.1910553163573, 804.1828747034438, 808.1746940905298, 812.1665134776163, 816.1583328647025, 820.1501522517888, 824.1419716388752, 828.1337910259615, 832.1256104130478, 836.117429800134, 840.1092491872203, 844.1010685743067, 848.092887961393, 852.0847073484792, 856.0765267355657, 860.068346122652, 864.0601655097382, 868.0519848968245, 872.0438042839107, 876.0356236709972, 880.0274430580835, 884.0192624451697, 888.0110818322562, 892.0029012193424, 895.9947206064287, 899.986539993515, 903.9783593806012, 907.9701787676877, 911.9619981547739, 915.9538175418602, 919.9456369289467, 923.9374563160329, 927.9292757031192, 931.9210950902054, 935.9129144772917, 939.9047338643782, 943.8965532514644, 947.8883726385507, 951.8801920256371, 955.8720114127234, 959.8638307998096, 963.8556501868959, 967.8474695739822, 971.8392889610686, 975.8311083481549, 979.8229277352411, 983.8147471223276, 987.8065665094139, 991.7983858965001, 995.7902052835864, 999.7820246706726, 1003.7738440577591, 1007.7656634448454, 1011.7574828319316, 1015.7493022190181, 1019.7411216061043, 1023.7329409931906, 1027.7247603802768, 1031.716579767363, 1035.7083991544496, 1039.7002185415358, 1043.692037928622, 1047.6838573157083, 1051.6756767027948, 1055.667496089881, 1059.6593154769673, 1063.6511348640536, 1067.64295425114, 1071.6347736382263, 1075.6265930253126, 1079.6184124123988, 1083.6102317994853, 1087.6020511865715, 1091.5938705736578, 1095.585689960744, 1099.5775093478303, 1103.5693287349168, 1107.561148122003, 1111.5529675090893, 1115.5447868961758, 1119.536606283262, 1123.5284256703483, 1127.5202450574345, 1131.5120644445208, 1135.5038838316073, 1139.4957032186935, 1143.4875226057798, 1147.479341992866, 1151.4711613799525, 1155.4629807670387, 1159.454800154125, 1163.4466195412112, 1167.4384389282977, 1171.430258315384, 1175.4220777024702, 1179.4138970895565, 1183.4057164766427, 1187.3975358637292, 1191.3893552508155, 1195.3811746379017, 1199.3729940249882, 1203.3648134120745, 1207.3566327991607, 1211.348452186247, 1215.3402715733332, 1219.3320909604197, 1223.323910347506, 1227.3157297345922, 1231.3075491216784, 1235.2993685087647, 1239.2911878958512, 1243.2830072829374, 1247.2748266700237, 1251.26664605711, 1255.2584654441964, 1259.2502848312827, 1263.242104218369, 1267.2339236054554, 1271.2257429925417, 1275.217562379628, 1279.2093817667144, 1283.2012011538006, 1287.1930205408867, 1291.1848399279731, 1295.1766593150594, 1299.1684787021456, 1303.160298089232, 1307.1521174763184, 1311.1439368634046, 1315.1357562504909, 1319.1275756375774, 1323.1193950246636, 1327.1112144117499, 1331.1030337988363, 1335.0948531859226, 1339.0866725730089, 1343.0784919600953, 1347.0703113471816, 1351.0621307342676, 1355.0539501213539, 1359.0457695084403, 1363.0375888955266, 1367.0294082826128, 1371.0212276696993, 1375.0130470567856, 1379.0048664438718, 1382.9966858309583, 1386.9885052180446, 1390.9803246051308, 1394.9721439922173, 1398.9639633793036, 1402.9557827663898, 1406.9476021534763, 1410.9394215405625, 1414.9312409276486, 1418.9230603147348, 1422.9148797018213, 1426.9066990889075, 1430.8985184759938, 1434.8903378630803, 1438.8821572501665, 1442.8739766372528, 1446.8657960243393, 1450.8576154114255, 1454.8494347985118, 1458.8412541855982, 1462.8330735726845, 1466.8248929597708, 1470.816712346857, 1474.8085317339433, 1478.8003511210295, 1482.7921705081158, 1486.7839898952022, 1490.7758092822885, 1494.7676286693747, 1498.7594480564612, 1502.7512674435475, 1506.7430868306337, 1510.7349062177202, 1514.7267256048065, 1518.7185449918927, 1522.710364378979, 1526.7021837660654, 1530.6940031531517, 1534.685822540238, 1538.6776419273242, 1542.6694613144105, 1546.6612807014967, 1550.6531000885832, 1554.6449194756694, 1558.6367388627557, 1562.6285582498422, 1566.6203776369284, 1570.6121970240147, 1574.604016411101, 1578.5958357981874, 1582.5876551852737, 1586.57947457236, 1590.5712939594464, 1594.5631133465326, 1598.5549327336187, 1602.5467521207052, 1606.5385715077914, 1610.5303908948777, 1614.5222102819641, 1618.5140296690504, 1622.5058490561366, 1626.497668443223, 1630.4894878303094, 1634.4813072173956, 1638.4731266044819, 1642.4649459915684, 1646.4567653786546, 1650.4485847657409, 1654.4404041528273, 1658.4322235399136, 1662.4240429269996, 1666.415862314086, 1670.4076817011724, 1674.3995010882586, 1678.3913204753449, 1682.3831398624313, 1686.3749592495176, 1690.3667786366038, 1694.3585980236903, 1698.3504174107766, 1702.3422367978628, 1706.3340561849493, 1710.3258755720356, 1714.3176949591218, 1718.3095143462083, 1722.3013337332945, 1726.2931531203806, 1730.2849725074668, 1734.2767918945533, 1738.2686112816396, 1742.2604306687258, 1746.2522500558123, 1750.2440694428985, 1754.2358888299848, 1758.2277082170713, 1762.2195276041575, 1766.2113469912438, 1770.2031663783303, 1774.1949857654165, 1778.1868051525028, 1782.1786245395892, 1786.1704439266753, 1790.1622633137615, 1794.1540827008478, 1798.1459020879342, 1802.1377214750205, 1806.1295408621068, 1810.1213602491932, 1814.1131796362795, 1818.1049990233657, 1822.0968184104522, 1826.0886377975385, 1830.0804571846247, 1834.0722765717112, 1838.0640959587975, 1842.0559153458837, 1846.04773473297, 1850.0395541200562, 1854.0313735071425, 1858.0231928942287, 1862.0150122813152, 1866.0068316684014, 1869.9986510554877, 1873.9904704425742, 1877.9822898296604, 1881.9741092167467, 1885.9659286038332, 1889.9577479909194, 1893.9495673780057, 1897.941386765092, 1901.9332061521784, 1905.9250255392647, 1909.9168449263507, 1913.9086643134372, 1917.9004837005234, 1921.8923030876097, 1925.8841224746961, 1929.8759418617824, 1933.8677612488686, 1937.8595806359551, 1941.8514000230414, 1945.8432194101276, 1949.8350387972139, 1953.8268581843004, 1957.8186775713866, 1961.8104969584729, 1965.8023163455593, 1969.7941357326456, 1973.7859551197316, 1977.777774506818, 1981.7695938939044, 1985.7614132809906, 1989.753232668077, 1993.7450520551633, 1997.7368714422496, 2001.7286908293358, 2005.7205102164223, 2009.7123296035086, 2013.7041489905948, 2017.6959683776813, 2021.6877877647676, 2025.6796071518538, 2029.6714265389403, 2033.6632459260265, 2037.6550653131126, 2041.646884700199, 2045.6387040872853, 2049.630523474372, 2053.622342861458, 2057.6141622485443, 2061.6059816356305, 2065.597801022717, 2069.5896204098035, 2073.5814397968898, 2077.573259183976, 2081.5650785710623, 2085.5568979581485, 2089.5487173452348, 2093.5405367323215, 2097.5323561194073, 2101.5241755064935, 2105.5159948935802, 2109.5078142806665, 2113.4996336677527, 2117.491453054839, 2121.4832724419252, 2125.4750918290115, 2129.4669112160977, 2133.4587306031844, 2137.4505499902707, 2141.442369377357, 2145.434188764443, 2149.4260081515295, 2153.4178275386157, 2157.4096469257024, 2161.401466312788, 2165.3932856998745, 2169.3851050869607, 2173.3769244740474, 2177.3687438611337, 2181.36056324822, 2185.352382635306, 2189.3442020223924])
+              .range(['#f08080ff', '#f17f7fff', '#f17f7fff', '#f17e7eff', '#f17e7eff', '#f17d7dff', '#f17d7dff', '#f17c7cff', '#f17c7cff', '#f17b7bff', '#f17b7bff', '#f17a7aff', '#f17a7aff', '#f17979ff', '#f17979ff', '#f17878ff', '#f17878ff', '#f17777ff', '#f27777ff', '#f27676ff', '#f27676ff', '#f27575ff', '#f27575ff', '#f27474ff', '#f27474ff', '#f27373ff', '#f27373ff', '#f27272ff', '#f27272ff', '#f27171ff', '#f27171ff', '#f27070ff', '#f27070ff', '#f26f6fff', '#f26e6eff', '#f36e6eff', '#f36d6dff', '#f36d6dff', '#f36c6cff', '#f36c6cff', '#f36b6bff', '#f36b6bff', '#f36a6aff', '#f36a6aff', '#f36969ff', '#f36969ff', '#f36868ff', '#f36868ff', '#f36767ff', '#f36767ff', '#f36666ff', '#f46666ff', '#f46565ff', '#f46565ff', '#f46464ff', '#f46464ff', '#f46363ff', '#f46363ff', '#f46262ff', '#f46262ff', '#f46161ff', '#f46161ff', '#f46060ff', '#f46060ff', '#f45f5fff', '#f45f5fff', '#f45e5eff', '#f45d5dff', '#f55d5dff', '#f55c5cff', '#f55c5cff', '#f55b5bff', '#f55b5bff', '#f55a5aff', '#f55a5aff', '#f55959ff', '#f55959ff', '#f55858ff', '#f55858ff', '#f55757ff', '#f55757ff', '#f55656ff', '#f55656ff', '#f55555ff', '#f65555ff', '#f65454ff', '#f65454ff', '#f65353ff', '#f65353ff', '#f65252ff', '#f65252ff', '#f65151ff', '#f65151ff', '#f65050ff', '#f65050ff', '#f64f4fff', '#f64f4fff', '#f64e4eff', '#f64e4eff', '#f64d4dff', '#f64c4cff', '#f74c4cff', '#f74b4bff', '#f74b4bff', '#f74a4aff', '#f74a4aff', '#f74949ff', '#f74949ff', '#f74848ff', '#f74848ff', '#f74747ff', '#f74747ff', '#f74646ff', '#f74646ff', '#f74545ff', '#f74545ff', '#f74444ff', '#f84444ff', '#f84343ff', '#f84343ff', '#f84242ff', '#f84242ff', '#f84141ff', '#f84141ff', '#f84040ff', '#f84040ff', '#f83f3fff', '#f83f3fff', '#f83e3eff', '#f83e3eff', '#f83d3dff', '#f83d3dff', '#f83c3cff', '#f83c3cff', '#f93b3bff', '#f93a3aff', '#f93a3aff', '#f93939ff', '#f93939ff', '#f93838ff', '#f93838ff', '#f93737ff', '#f93737ff', '#f93636ff', '#f93636ff', '#f93535ff', '#f93535ff', '#f93434ff', '#f93434ff', '#f93333ff', '#f93333ff', '#fa3232ff', '#fa3232ff', '#fa3131ff', '#fa3131ff', '#fa3030ff', '#fa3030ff', '#fa2f2fff', '#fa2f2fff', '#fa2e2eff', '#fa2e2eff', '#fa2d2dff', '#fa2d2dff', '#fa2c2cff', '#fa2c2cff', '#fa2b2bff', '#fa2b2bff', '#fb2a2aff', '#fb2929ff', '#fb2929ff', '#fb2828ff', '#fb2828ff', '#fb2727ff', '#fb2727ff', '#fb2626ff', '#fb2626ff', '#fb2525ff', '#fb2525ff', '#fb2424ff', '#fb2424ff', '#fb2323ff', '#fb2323ff', '#fb2222ff', '#fb2222ff', '#fc2121ff', '#fc2121ff', '#fc2020ff', '#fc2020ff', '#fc1f1fff', '#fc1f1fff', '#fc1e1eff', '#fc1e1eff', '#fc1d1dff', '#fc1d1dff', '#fc1c1cff', '#fc1c1cff', '#fc1b1bff', '#fc1b1bff', '#fc1a1aff', '#fc1a1aff', '#fd1919ff', '#fd1818ff', '#fd1818ff', '#fd1717ff', '#fd1717ff', '#fd1616ff', '#fd1616ff', '#fd1515ff', '#fd1515ff', '#fd1414ff', '#fd1414ff', '#fd1313ff', '#fd1313ff', '#fd1212ff', '#fd1212ff', '#fd1111ff', '#fd1111ff', '#fe1010ff', '#fe1010ff', '#fe0f0fff', '#fe0f0fff', '#fe0e0eff', '#fe0e0eff', '#fe0d0dff', '#fe0d0dff', '#fe0c0cff', '#fe0c0cff', '#fe0b0bff', '#fe0b0bff', '#fe0a0aff', '#fe0a0aff', '#fe0909ff', '#fe0909ff', '#ff0808ff', '#ff0707ff', '#ff0707ff', '#ff0606ff', '#ff0606ff', '#ff0505ff', '#ff0505ff', '#ff0404ff', '#ff0404ff', '#ff0303ff', '#ff0303ff', '#ff0202ff', '#ff0202ff', '#ff0101ff', '#ff0101ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#fe0000ff', '#fe0000ff', '#fd0000ff', '#fd0000ff', '#fc0000ff', '#fc0000ff', '#fc0000ff', '#fb0000ff', '#fb0000ff', '#fa0000ff', '#fa0000ff', '#f90000ff', '#f90000ff', '#f80000ff', '#f80000ff', '#f70000ff', '#f70000ff', '#f60000ff', '#f60000ff', '#f50000ff', '#f50000ff', '#f50000ff', '#f40000ff', '#f40000ff', '#f30000ff', '#f30000ff', '#f20000ff', '#f20000ff', '#f10000ff', '#f10000ff', '#f00000ff', '#f00000ff', '#ef0000ff', '#ef0000ff', '#ee0000ff', '#ee0000ff', '#ee0000ff', '#ed0000ff', '#ed0000ff', '#ec0000ff', '#ec0000ff', '#eb0000ff', '#eb0000ff', '#ea0000ff', '#ea0000ff', '#e90000ff', '#e90000ff', '#e80000ff', '#e80000ff', '#e70000ff', '#e70000ff', '#e70000ff', '#e60000ff', '#e60000ff', '#e50000ff', '#e50000ff', '#e40000ff', '#e40000ff', '#e30000ff', '#e30000ff', '#e20000ff', '#e20000ff', '#e10000ff', '#e10000ff', '#e00000ff', '#e00000ff', '#e00000ff', '#df0000ff', '#df0000ff', '#de0000ff', '#de0000ff', '#dd0000ff', '#dd0000ff', '#dc0000ff', '#dc0000ff', '#db0000ff', '#db0000ff', '#da0000ff', '#da0000ff', '#d90000ff', '#d90000ff', '#d90000ff', '#d80000ff', '#d80000ff', '#d70000ff', '#d70000ff', '#d60000ff', '#d60000ff', '#d50000ff', '#d50000ff', '#d40000ff', '#d40000ff', '#d30000ff', '#d30000ff', '#d20000ff', '#d20000ff', '#d20000ff', '#d10000ff', '#d10000ff', '#d00000ff', '#d00000ff', '#cf0000ff', '#cf0000ff', '#ce0000ff', '#ce0000ff', '#cd0000ff', '#cd0000ff', '#cc0000ff', '#cc0000ff', '#cb0000ff', '#cb0000ff', '#cb0000ff', '#ca0000ff', '#ca0000ff', '#c90000ff', '#c90000ff', '#c80000ff', '#c80000ff', '#c70000ff', '#c70000ff', '#c60000ff', '#c60000ff', '#c50000ff', '#c50000ff', '#c40000ff', '#c40000ff', '#c40000ff', '#c30000ff', '#c30000ff', '#c20000ff', '#c20000ff', '#c10000ff', '#c10000ff', '#c00000ff', '#c00000ff', '#bf0000ff', '#bf0000ff', '#be0000ff', '#be0000ff', '#bd0000ff', '#bd0000ff', '#bd0000ff', '#bc0000ff', '#bc0000ff', '#bb0000ff', '#bb0000ff', '#ba0000ff', '#ba0000ff', '#b90000ff', '#b90000ff', '#b80000ff', '#b80000ff', '#b70000ff', '#b70000ff', '#b60000ff', '#b60000ff', '#b60000ff', '#b50000ff', '#b50000ff', '#b40000ff', '#b40000ff', '#b30000ff', '#b30000ff', '#b20000ff', '#b20000ff', '#b10000ff', '#b10000ff', '#b00000ff', '#b00000ff', '#af0000ff', '#af0000ff', '#af0000ff', '#ae0000ff', '#ae0000ff', '#ad0000ff', '#ad0000ff', '#ac0000ff', '#ac0000ff', '#ab0000ff', '#ab0000ff', '#aa0000ff', '#aa0000ff', '#a90000ff', '#a90000ff', '#a80000ff', '#a80000ff', '#a80000ff', '#a70000ff', '#a70000ff', '#a60000ff', '#a60000ff', '#a50000ff', '#a50000ff', '#a40000ff', '#a40000ff', '#a30000ff', '#a30000ff', '#a20000ff', '#a20000ff', '#a10000ff', '#a10000ff', '#a10000ff', '#a00000ff', '#a00000ff', '#9f0000ff', '#9f0000ff', '#9e0000ff', '#9e0000ff', '#9d0000ff', '#9d0000ff', '#9c0000ff', '#9c0000ff', '#9b0000ff', '#9b0000ff', '#9a0000ff', '#9a0000ff', '#9a0000ff', '#990000ff', '#990000ff', '#980000ff', '#980000ff', '#970000ff', '#970000ff', '#960000ff', '#960000ff', '#950000ff', '#950000ff', '#940000ff', '#940000ff', '#930000ff', '#930000ff', '#930000ff', '#920000ff', '#920000ff', '#910000ff', '#910000ff', '#900000ff', '#900000ff', '#8f0000ff', '#8f0000ff', '#8e0000ff', '#8e0000ff', '#8d0000ff', '#8d0000ff', '#8c0000ff', '#8c0000ff', '#8c0000ff', '#8b0000ff']);
+    
+
+    color_map_3f068113a681d7ed53930b551a0bafb0.x = d3.scale.linear()
+              .domain([197.4263278663248, 2189.3442020223924])
+              .range([0, 450 - 50]);
+
+    color_map_3f068113a681d7ed53930b551a0bafb0.legend = L.control({position: 'topright'});
+    color_map_3f068113a681d7ed53930b551a0bafb0.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_3f068113a681d7ed53930b551a0bafb0.legend.addTo(map_fa98f57a8aa9b5fbb85406b57b7d2b1b);
+
+    color_map_3f068113a681d7ed53930b551a0bafb0.xAxis = d3.svg.axis()
+        .scale(color_map_3f068113a681d7ed53930b551a0bafb0.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([197.4263278663248, 1193.3852649443586, 2189.3442020223924]);
+
+    color_map_3f068113a681d7ed53930b551a0bafb0.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_3f068113a681d7ed53930b551a0bafb0.g = color_map_3f068113a681d7ed53930b551a0bafb0.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_3f068113a681d7ed53930b551a0bafb0.g.selectAll("rect")
+        .data(color_map_3f068113a681d7ed53930b551a0bafb0.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_3f068113a681d7ed53930b551a0bafb0.x(color_map_3f068113a681d7ed53930b551a0bafb0.color.domain()[i - 1]) : color_map_3f068113a681d7ed53930b551a0bafb0.x.range()[0],
+            x1: i < color_map_3f068113a681d7ed53930b551a0bafb0.color.domain().length ? color_map_3f068113a681d7ed53930b551a0bafb0.x(color_map_3f068113a681d7ed53930b551a0bafb0.color.domain()[i]) : color_map_3f068113a681d7ed53930b551a0bafb0.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_3f068113a681d7ed53930b551a0bafb0.g.call(color_map_3f068113a681d7ed53930b551a0bafb0.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("CARBON SEQUESTRATION");
+</script>
+</html>
