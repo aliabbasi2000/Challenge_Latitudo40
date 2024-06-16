@@ -1,9 +1,0 @@
-Id, Species, Latitude, Longitude
-1, European Nettle Tree, 45.072900000000004, 7.6868
-2, European Nettle Tree, 45.0408, 7.6487
-3, European Red Pine, 45.075, 7.640999999999999
-4, Horse Chestnut, 45.051199999999994, 7.6869000000000005
-5, Horse Chestnut, 45.047999999999995, 7.688000000000001
-6, Horse Chestnut, 45.0258, 7.6635
-7, Horse Chestnut, 45.082800000000006, 7.6457999999999995
-8, Horse Chestnut, 45.0624, 7.641699999999999
