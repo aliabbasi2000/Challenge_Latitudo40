@@ -1,9 +1,4 @@
 ## Instructions to use the code
-packages need to be installed: pytorch, matplotlib, piexif, sqlite3
-
-pip install pytorch, matplotlib, piexif, sqlite3
-
->>>>>>> 7804bf778f2620e2dfed3ed7ff8c2203ac4390d4
 Before running the training algorithm extract the dataset.rar file to the same directory of the project.
 Then run the Tree_species_identification.py to train the model
 finally run the Tree_species_training.py to classify the tree images in the test-dataset folder
