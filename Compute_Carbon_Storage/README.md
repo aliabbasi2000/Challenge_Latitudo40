@@ -1,10 +1,17 @@
 ## Instructions to use the code
-packages need to be installed: numpy, pandas
 
-pip install numpy, pandas
+### Libraries
+
+1. **pandas**: For data manipulation and analysis.
+2. **numpy**: For numerical operations on arrays.
+
+### Installation and running Instructions
+
+To install the required packages, use the following commands:
+
+```sh
+pip install pandas numpy
 
 python computeAGB.py
 
 python compute_carbon_storage.py
-
-NOTE: the input_DBH_dataset.txt file should be in a same direcroty with the code
