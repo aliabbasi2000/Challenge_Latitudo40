@@ -58,12 +58,13 @@ forest biomass and health.
 
 Finally, the data is visualized on a map to identify areas with varying levels of carbon storage. This 
 visualization aids in understanding and managing environmental conditions effectively, supporting 
-conservation and carbon management efforts. This comprehensive approach enables informed decisionmaking for better conservation and sustainable practices.
+conservation and carbon management efforts. This comprehensive approach enables informed decision-making for better conservation and sustainable practices.
 
 #### FlowChart of our Process
 <div align="center">
   <img src="./Documentation/diagrams/flowchart.png" alt="Flowchart" />
 </div>
+For each of these tasks, we have a distinct directory that contains the Python code to do the task.
 
 ### Sample Output
 
