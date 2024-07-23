@@ -1,7 +1,7 @@
 ## Instructions to use the code
-packages need to be installed: laspy
+packages need to be installed: pytorch, matplotlib, piexif, sqlite3
 
-pip install laspy
+pip install pytorch, matplotlib, piexif, sqlite3
 
 Before running the training algorithm extract the dataset.rar file to the same directory of the project.
 Then run the Tree_species_identification.py to train the model
